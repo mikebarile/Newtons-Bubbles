@@ -27,7 +27,7 @@ In addition, this project will include:
 The game will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn,
 and the About modal.  Game controls will include directional movement keys and a pause button. There will also be a clickable mute button and a clickable "about" that opens a modal explaining the game's rules and controls.
 
-![wireframes](https://drive.google.com/open?id=0B5y0fyPv51Nud1RMSm9SVDVUUEE)
+![wireframes](https://github.com/mikebarile/Darwin-s-Colorful-Bubbles/blob/master/docs/Darwin's%20Colorful%20Bubbles.png)
 
 ### Architecture and Technologies
 
