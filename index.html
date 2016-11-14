@@ -8,22 +8,10 @@
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
 
-    <script>
-      function init() {
-        var stage = new createjs.Stage("demoCanvas");
-        var circle = new createjs.Shape();
-        circle.graphics.beginFill("DeepSkyBlue").drawCircle(0, 0, 50);
-        circle.x = 100;
-        circle.y = 100;
-        stage.addChild(circle);
-        stage.update();
-      }
-    </script>
-
   </head>
 
   <body onload="init();">
-    <canvas id="demoCanvas" width="500" height="300"></canvas>
+    <canvas></canvas>
   </body>
 
 </html>
