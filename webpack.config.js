@@ -1,7 +1,32 @@
+const path = require('path');
 module.exports = {
-  entry: "./lib/bubbles.js",
+  context: __dirname,
+  entry: './lib/bubbles',
   output: {
-  	filename: "./lib/bundle.js"
+    path: path.join(__dirname, 'app', 'assets', 'javascripts'),
+    filename: 'bundle.js'
   },
-  devtool: 'source-map',
+  resolve: {
+    extensions: ['', '.js']
+  },
+  node: {
+  fs: "empty"
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: 'babel',
+        query: {
+          presets: ['es2015']
+        }
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      }
+    ]
+  },
+  devtool: 'source-maps'
 };
