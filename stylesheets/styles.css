@@ -1,9 +1,75 @@
+@font-face {
+   font-family: pretty-font;
+   src: url('https://res.cloudinary.com/dsguwnfdw/raw/upload/v1478195629/Gifs/prima_sans.ttf');
+ }
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
-#pause {
+.start-display {
+  font-family: pretty-font;
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: calc(50% - 150px);
+  left: calc(50% - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.press-space {
+  font-family: pretty-font;
+  color: white;
+  position: absolute;
+  width: 300px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  height: 100px;
+  bottom: calc(50% - 265px);
+  left: calc(50% - 150px);
+}
+
+.end-display {
+  font-family: pretty-font;
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: calc(50% - 150px);
+  left: calc(50% - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header {
+  opacity: 1;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.subheader {
+  opacity: 1;
+  margin-top: 40px;
+}
+
+.subheader2 {
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.pause {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -15,8 +81,18 @@ html, body {
   border-radius: 50px;
 }
 
-#pause:active {
+.pause:active {
   background-color: grey;
+}
+
+.corner-instructions {
+  color: white;
+  font-family: pretty-font;
+  position: absolute;
+  z-index: 5;
+  bottom: 10px;
+  font-size: 14px;
+  right: 10;
 }
 
 #game-canvas {
@@ -26,4 +102,8 @@ html, body {
   height: 100%;
   display: block; /* fix necessary to remove space at bottom of canvas */
   background-color: black;
+}
+
+.gone {
+  display: none;
 }

@@ -12,7 +12,23 @@
 
   <body>
     <canvas id="game-canvas"></canvas>
-    <img src="https://res.cloudinary.com/dsguwnfdw/image/upload/v1479322057/Bubbles/icon-pause-white.png" id="pause">
+    <img class="pause gone" id="pause" src="https://res.cloudinary.com/dsguwnfdw/image/upload/v1479322057/Bubbles/icon-pause-white.png">
+    <div class="corner-instructions gone" id="corner-instructions">
+      <span>Controls: arrow keys or w-a-s-d to move</span>
+    </div>
+
+    <div class="start-display" id="start-display">
+      <span class="header">Darwin's Bubbles</span>
+      <span class="subheader">Goal: eat or be eaten!</span>
+      <span class="subheader2">Arrow keys or w-a-s-d to move</span>
+    </div>
+    <span class="press-space" id="press-space">Press space to start</span>
+
+    <div class="end-display gone" id="end-display">
+      <span class="header">You've lost</span>
+      <span class="subheader">Press space to try again</span>
+    </div>
+
   </body>
 
 </html>
