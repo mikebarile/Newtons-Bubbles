@@ -12,6 +12,11 @@ html, body {
   margin: 0px;
   padding: 0px;
   cursor: pointer;
+  border-radius: 50px;
+}
+
+#pause:active {
+  background-color: grey;
 }
 
 #canvas {
