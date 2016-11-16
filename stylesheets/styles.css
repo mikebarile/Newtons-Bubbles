@@ -19,10 +19,11 @@ html, body {
   background-color: grey;
 }
 
-#canvas {
+#game-canvas {
   margin: 0px;
   padding: 0px;
   width: 100%;
   height: 100%;
   display: block; /* fix necessary to remove space at bottom of canvas */
+  background-color: black;
 }
