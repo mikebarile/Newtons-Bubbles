@@ -116,6 +116,9 @@ html, body {
   color: white;
   font-family: pretty-font;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   z-index: 5;
   bottom: 10px;
   font-size: 14px;
