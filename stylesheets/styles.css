@@ -42,7 +42,7 @@ html, body {
   height: 300px;
   width: 300px;
   border-radius: 200px;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.8);
   color: black;
   position: absolute;
   bottom: calc(50% - 150px);
