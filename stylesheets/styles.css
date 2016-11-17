@@ -10,14 +10,14 @@ html, body {
 
 .start-display {
   font-family: pretty-font;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 200px;
   background-color: white;
   color: black;
   position: absolute;
-  bottom: calc(50% - 150px);
-  left: calc(50% - 150px);
+  bottom: calc(50% - 200px);
+  left: calc(50% - 200px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -28,25 +28,25 @@ html, body {
   font-family: pretty-font;
   color: white;
   position: absolute;
-  width: 300px;
+  width: 400px;
   display: flex;
   font-size: 20px;
   justify-content: center;
   height: 100px;
-  bottom: calc(50% - 265px);
-  left: calc(50% - 150px);
+  bottom: calc(50% - 320px);
+  left: calc(50% - 200px);
 }
 
 .end-display {
   font-family: pretty-font;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 200px;
   background: rgba(255, 255, 255, 0.8);
   color: black;
   position: absolute;
-  bottom: calc(50% - 150px);
-  left: calc(50% - 150px);
+  bottom: calc(50% - 200px);
+  left: calc(50% - 200px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -55,22 +55,22 @@ html, body {
 
 .header {
   opacity: 1;
-  font-size: 30px;
-  margin-top: 90px;
+  font-size: 35px;
+  margin-top: 120px;
 }
 
 .header2 {
   opacity: 1;
   font-size: 30px;
-  margin-top: 120px;
-  margin-bottom: 20px;
+  margin-top: 155px;
+  margin-bottom: 40px;
 }
 
 .subheader {
   opacity: 1;
   font-weight: bold;
   font-size: 17px;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .subheader2 {
