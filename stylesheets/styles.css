@@ -16,7 +16,7 @@ html, body {
   background: rgba(255, 255, 255, 0.8);
   color: black;
   position: absolute;
-  bottom: calc(40%);
+  bottom: calc(35%);
   left: calc(50% - 150px);
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ html, body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  bottom: calc(19%);
+  bottom: calc(17%);
 }
 
 .d-header {
