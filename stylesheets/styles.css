@@ -187,6 +187,21 @@ html, body {
   background-color: grey;
 }
 
+.mute {
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 65px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.mute:active {
+  background-color: grey;
+}
+
 .corner-instructions {
   color: white;
   font-family: pretty-font;
