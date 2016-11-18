@@ -1,7 +1,7 @@
 # [Newton's Bubbles][link]
 [link]: https://mikebarile.github.io/Newtons-Bubbles/
 
-A browser based vanilla javascript game utilizing the Canvas library.
+A browser-based vanilla javascript game utilizing the Canvas library.
 
 ![Survival GameScreen](https://res.cloudinary.com/dsguwnfdw/image/upload/v1479496677/Screen_Shot_2016-11-18_at_11.17.36_AM_faeys7.png)
 
