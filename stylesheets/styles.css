@@ -1,3 +1,4 @@
+
 @font-face {
    font-family: pretty-font;
    src: url('https://res.cloudinary.com/dsguwnfdw/raw/upload/v1478195629/Gifs/prima_sans.ttf');
@@ -69,6 +70,7 @@ html, body {
   color: black;
   width: 185px;
   height: 45px;
+  font-size: 16px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.8);
   margin-left: 10px;
@@ -165,6 +167,7 @@ html, body {
 }
 
 .subheader2 {
+  font-size: 16px;
   font-family: sans-serif;
   font-weight: lighter;
   opacity: 1;
