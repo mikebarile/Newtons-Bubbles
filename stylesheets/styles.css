@@ -9,6 +9,40 @@ html, body {
   padding: 0;
 }
 
+.d-header-row {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-header-left {
+  color: white;
+  width: 185px;
+  height: 45px;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-right: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.d-header-right {
+  color: white;
+  width: 185px;
+  height: 45px;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-left: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .start-display {
   font-family: pretty-font;
   height: 300px;
@@ -37,7 +71,7 @@ html, body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  bottom: calc(20%);
+  bottom: calc(21%);
 }
 
 .difficulty-end {
